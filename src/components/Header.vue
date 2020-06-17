@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <div class="nav-wrapper purple darken-4">
-      <a href="/" class="brand-logo">Agile support</a>
+    <div class=" nav-wrapper purple darken-4 text12">
+      <a href="/" class="brand-logo " >Agile support</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li>
           <router-link to="/Textos">Textos rápidos</router-link>
@@ -30,4 +30,10 @@ export default {
 </script>
 
 <style>
+
+a{
+  font-family: 'Sriracha', cursive;
+  font-size: 50px;
+
+}
 </style>
